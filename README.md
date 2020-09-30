@@ -1,6 +1,7 @@
 # The app to reproduce Live View + gen_auth bug on Brave browser.
 
 Brave version: V1.14.84
+
 OS: Mac OS Catalina
 
 How to trigger this behavior?
