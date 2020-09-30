@@ -1,18 +1,10 @@
-# MyApp
+# The app to reproduce Live View + gen_auth bug on Brave browser.
 
-To start your Phoenix server:
+How to trigger this behavior?
+1. Register a new user
+2. Log out
+3. Log in again
+3. Somethimes it was required to do Re-login 1-4 times to see the infinity load.
+On other browsers the behavior was not noticed.
 
-  * Setup the project with `mix setup`
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Here is the video https://streamable.com/6wg1ap
